@@ -230,10 +230,13 @@ nav ul li a:hover{
 .about p + p{
     margin-top: 10px;}
 
+    .about form{
+        text-align: center;
+    }
 .about form input{
     height:50px;
     width:140px;
-    background-color: var(--app-pink);
+    background-color: orangered;
     border-radius: 34px;
     color:var(--app-white);
     margin-top: 40px;
@@ -268,4 +271,140 @@ nav ul li a:hover{
     }
 }
 
+
+/*------------------------*/
+/*Columns                 */
+/*------------------------*/
+
+.column{
+    flex-grow:1;
+    width:calc(25% - 15px);
+    height:250px;
+    border-radius: 6px;
+   
+    margin-top:30px;
+}
+.row {
+    flex-flow:row wrap;
+     display:flex;
+     gap:20px;
+ }
+ 
+
+.one{
+    background-color:#ffffed;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.two{
+    background-color:#ffffed ;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.three{
+    background-color: #ffffed;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.four{
+    background-color: #ffffed;
+    padding:20px;
+    box-sizing: border-box;
+}
+.works{
+    background-image: url(../img/wp3429667-background-light-orange.png);
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+/*699px and down*/
+@media (max-width:1080px ){
+    .column{
+      width:calc(50% - 10px);
+
+    }
+    .button input{
+        font-size: 12px;
+    }
+    
+    
+}
+
+@media (max-width:560px){
+    .column{
+        width:100%;
+    }
+    .button input{
+        font-size:6px;
+    }
+}
+
+div h2{
+    font-size:24px;
+    color:orangered;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color:#864a36;
+}
+
+.button input{
+    height:50px;
+    width:50%;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius:12px;
+    font-size: 20px;
+    color: var(--app-white);
+    transition: all 0.24s ease-in-out;
+}
+
+
+
+
+.second{
+    display:grid;
+    align-items: center;
+    font-size:36px;
+    color: #864a36;
+    text-align:center;
+    margin-top: 50px;
+    width:100%;
+}
+
+.button input:hover{
+    background-color: var(--app-dark-grey);
+}
+
+.subscribe{
+    width:30%;
+    text-align: right;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+.subscribe .button{
+    height:60px;
+    background-color: var(--app-pink);
+    border-radius: 34px;
+    margin-top: 60px;
+    transition: transform .4s;
+}
+
+
+ .subscribe a{
+    font-size: 28px;
+    color:var(--app-light-pink);
+    align-items: center;
+    text-decoration: none;
+    margin-right: 80px;
+    padding: 10px;
+    line-height: 60px;
+}
 
