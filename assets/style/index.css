@@ -62,73 +62,6 @@ nav ul li a:hover{
 }
 
 
-/*--------------------*/
-/*Responsive Design   */
-/*--------------------*/
-
-/*@media (max-width:1600px ){
-   
-    nav ul .tag{
-        display:none;
-    }
-}
-
-@media (max-width:1100px ){
-    nav ul li{
-        margin-right: 30px;
-    }
-    nav ul .tag{
-        display:none;
-    }
-}
-
-@media (max-width:1000px){
-    nav ul li{
-        margin-right: 20px;
-    }
-    nav ul .tag{
-        display:none;
-    }
-}
-
-@media (max-width:900px){
-    nav ul li{
-        margin-right: 10px;
-    }
-    nav ul .tag{
-        display:none;
-    }
-}
-
-@media (max-width:770px){
-     h1{
-        font-size: 30px;
-    }
-    nav ul li{
-        font-size: 14px;
-        line-height: 70px;
-        
-    }
-    nav ul .tag{
-        display:none;
-    }
-}
-
-@media (max-width:600px){
-    
-
-    .six, nav ul .home-2 ,  nav ul .home-3 ,  nav ul .home-4, nav ul .home-5 {
-      display: none;
-    }
-  
-   nav ul .tag {
-      display:inline;
-        font-size:24px;
-        color: var(--app-white);
-       margin-left:180px;
-        line-height: 60px;
-   }
-  }
 
 
 /*----------------------*/
@@ -181,33 +114,13 @@ nav ul li a:hover{
     transition:transform .4s;
 }
 
-/*.start .mail input:last-child{
-    position: absolute;
-    top:5px;
-    right:5px;
-    bottom:5px;
-    background-color: #442200;
-    color: var(--app-white);
-    width:180px;
-    height:50px;
-    border-radius:16px ;
-}*/
 
 .start .mail input:last-child:hover{
     transform:scale(1.1);
 }
 
 
-*-----------------------*/
-/*Section                */
-/*-----------------------*/
 
-.about{
-    /*width:100%;*/
-    /*background-color: var(--app-dak-grey);*/
-   /* padding:100px 20px ;*/
-    
-}
 
 
 .about{
@@ -316,7 +229,7 @@ nav ul li a:hover{
     box-sizing: border-box;
 }
 .works{
-    background-image: url(../img/wp3429667-background-light-orange.png);
+   /* background-image: url(../img/wp3429667-background-light-orange.png);*/
 
     width: 100%;
     background-size: cover;
@@ -476,10 +389,7 @@ div h2{
 
 
 
-    /*section{
-        min-height: calc(100vh - 60px - 80px );
-    }*/
-/*699px and down*/
+    
 @media (max-width:1080px ){
     /*.column{
       width:calc(50% - 10px);
@@ -604,12 +514,16 @@ div h2{
 @media (max-width:600px ){
     
     .links h2{
-      font-size: 18px;
+      font-size: 16px;
 
     }
 
     .links a{
         font-size:14px ;
+    }
+
+    .links p{
+        font-size: 16px;
     }
     
 }
@@ -706,17 +620,3 @@ footer  .copy {
 
 
 
-/*@media (max-width:390px){
-    
-
-  nav ul li a{
-    display: none;
-  }
-
- nav ul .tag {
-    display:inline;
-      font-size:20px;
-      color: var(--app-white);
-      /*margin-left:280px;*/
-/* }
-}*/
