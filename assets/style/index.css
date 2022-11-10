@@ -402,6 +402,7 @@ div h2{
     nav ul .tag{
         display:none;
     }
+    
 }
 
 @media (max-width:1100px ){
@@ -419,6 +420,9 @@ div h2{
     }
     nav ul .tag{
         display:none;
+    }
+    h1{
+        font-size: 24px;
     }
 }
 
@@ -443,6 +447,9 @@ div h2{
     nav ul .tag{
         display:none;
     }
+    h1{
+        font-size: 20px;
+    }
 }
 
 @media (max-width:600px){
@@ -454,10 +461,13 @@ div h2{
   
    nav ul .tag {
       display:inline;
-        font-size:24px;
+        font-size:20px;
         color: var(--app-white);
        margin-left:180px;
         line-height: 60px;
+   }
+   h1{
+    font-size: 16px;
    }
   }
 
@@ -500,7 +510,7 @@ div h2{
 @media (max-width:700px){
     .column{
         width:100%;
-        padding: 40px;
+        margin-bottom: 40px;
     }
     .row{
         display: inline;
@@ -577,6 +587,32 @@ div h2{
     
 
 }
+
+@media (max-width:800px ){
+    
+    .links h2{
+      font-size: 24px;
+
+    }
+
+    .links a{
+        font-size:16px ;
+    }
+    
+}
+
+@media (max-width:600px ){
+    
+    .links h2{
+      font-size: 18px;
+
+    }
+
+    .links a{
+        font-size:14px ;
+    }
+    
+}
 /*------------------------*/
 /*Footer                  */
 /*------------------------*/
@@ -605,7 +641,7 @@ footer  .copy {
 
  .copy {
     font-size: 24px;
-    color: #864a36;
+    color: white;
     line-height: 70px;
  }
  .tags {
