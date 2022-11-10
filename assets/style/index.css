@@ -202,15 +202,15 @@ nav ul li a:hover{
 /*Section                */
 /*-----------------------*/
 
-/*.about{
-    width:100%;
-    background-color: var(--app-dak-grey);
-    padding:100px 20px ;
+.about{
+    /*width:100%;*/
+    /*background-color: var(--app-dak-grey);*/
+   /* padding:100px 20px ;*/
     
-}*/
+}
 
 
-.about .text{
+.about{
    
     margin-right:30px;
     margin-left: 30px;
@@ -595,77 +595,7 @@ form textarea{
 }
 
 
-/*------------------------*/
-/*Footer                  */
-/*------------------------*/
-
-
-/*.flexbox {
-    display: flex;
-}
-
-
-footer {
-    background-color: var(--app-dark-grey);
-    height: 80px;
-    margin-top: 20px;
-    
-}
-/*footer .container{
-    width:min(100% - 30px, 1280px);
-    margin-inline: auto;
-}*/
-
-/*footer  .copy {
-    width: 30%;
-    text-align: right;
-}
-
- .copy {
-    font-size: 24px;
-    color: var(--app-pink);
-    line-height: 70px;
- }
- .tags {
-    width: 70%;
-    text-align: left;
-}
-
- .tags ul {
-    /*Removing the bullet points from the li's*/
-   /* list-style: none;
-    font-size: 0;
-}
-
- .tags ul li {
-    display: inline;
-    line-height: 80px;
-    cursor: default;
-}
-
-.tags ul li a, .tags ul .foot{
-    background-color: var(--app-pink);
-    font-size: 17px;
-    color:  var(--app-white);
-    text-decoration: none;
-    font-weight: 600px;
-    letter-spacing: 0.2px;
-    cursor: pointer;
-    transition: transform .4s;
-}
-
-.tags li a, .tags ul .foot {
-    border: 2px solid var(--app-pink);
-    border-radius: 50%;
-    padding: 10px;
-    margin-right: 5px;
-}
-
-.tags ul li a i:hover{
-    transform:scale(1.5);
-    font-size: 22px;
-    cursor:pointer;
-}
+/*
 
 @media (max-width:800px ){
     
@@ -824,57 +754,11 @@ nav ul li a:hover{
 
 
 
-/*------------------------*/
-/*Columns                 */
-/*------------------------*/
-
-.column{
-    flex-grow:1;
-    width:calc(25% - 15px);
-
-    border-radius: 6px;
-   
-    margin-top:30px;
-}
-.row {
-    flex-flow:row wrap;
-     display:flex;
-     gap:20px;
- }
- 
-
-.one{
-    background-color: var(--app-dark-grey);
-    padding:20px;
-    box-sizing: border-box;
-}
-
-.two{
-    background-color:var(--app-dark-grey) ;
-    padding:20px;
-    box-sizing: border-box;
-}
-
-.three{
-    background-color: var(--app-dark-grey);
-    padding:20px;
-    box-sizing: border-box;
-}
-
-.four{
-    background-color: var(--app-dark-grey);
-    padding:20px;
-    box-sizing: border-box;
-}
 
 
-
-/*section{
-    min-height:calc(100vh -60px - 80px);}*/
-
-    section{
+    /*section{
         min-height: calc(100vh - 60px - 80px );
-    }
+    }*/
 /*699px and down*/
 @media (max-width:1080px ){
     /*.column{
@@ -903,7 +787,7 @@ nav ul li a:hover{
     
 }
 
-@media (max-width:980px){
+@media (max-width:700px){
     .column{
         width:100%;
     }
@@ -923,70 +807,6 @@ nav ul li a:hover{
     }
 }
 
-div h2{
-    font-size:24px;
-    color:var(--app-pink);
-}
-p{
-    /*margin-top: 10px;*/
-    margin-bottom: 30px;
-    color:var(--app-light-pink);
-}
-
-.button input{
-    height:50px;
-    width:50%;
-    background-color: var(--app-pink);
-    border: 2px solid var(--app-pink);
-    border-radius:12px;
-    font-size: 20px;
-    color: var(--app-white);
-    transition: all 0.24s ease-in-out;
-}
-
-
-
-
-section{
-    display:grid;
-    align-items: center;
-    /*font-size:36px;*/
-    color: var(--app-white);
-    text-align:center;
-  /* margin-top: 50px;*/
-    width:100%;
-}
-
-.button input:hover{
-    background-color: var(--app-dark-grey);
-}
-
-.subscribe{
-    width:30%;
-    text-align: right;
-    font-size: 10px;
-    text-decoration: none;
-    
-}
-
-.subscribe .button{
-    height:60px;
-    background-color: var(--app-pink);
-    border-radius: 34px;
-    margin-top: 60px;
-    transition: transform .4s;
-}
-
-
- .subscribe a{
-    font-size: 28px;
-    color:var(--app-light-pink);
-    align-items: center;
-    text-decoration: none;
-    margin-right: 80px;
-    padding: 10px;
-    line-height: 60px;
-}
 
 
 /*--------------------*/
@@ -1074,7 +894,7 @@ section{
 
 
 footer {
-    background-color: var(--app-dark-grey);
+    background-color: orangered;
     height: 80px;
     margin-top: 20px;
     
@@ -1091,7 +911,7 @@ footer  .copy {
 
  .copy {
     font-size: 24px;
-    color: var(--app-pink);
+    color: #864a36;
     line-height: 70px;
  }
  .tags {
@@ -1112,9 +932,9 @@ footer  .copy {
 }
 
 .tags ul li a, .tags ul .foot{
-    background-color: var(--app-pink);
+    background-color: white;
     font-size: 17px;
-    color:  var(--app-white);
+    color:  orangered;
     text-decoration: none;
     font-weight: 600px;
     letter-spacing: 0.2px;
@@ -1123,7 +943,7 @@ footer  .copy {
 }
 
 .tags li a, .tags ul .foot {
-    border: 2px solid var(--app-pink);
+    border: 2px solid white;
     border-radius: 50%;
     padding: 10px;
     margin-right: 5px;
