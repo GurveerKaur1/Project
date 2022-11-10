@@ -224,7 +224,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .about p{
-    color:orangered;
+    color:var(--app-dark-grey);
 }
 
 .about p + p{
@@ -281,13 +281,14 @@ nav ul li a:hover{
     width:calc(25% - 15px);
     height:250px;
     border-radius: 6px;
-   
+   padding: 30px;
     margin-top:30px;
 }
 .row {
     flex-flow:row wrap;
      display:flex;
      gap:20px;
+     padding-bottom: 30px;
  }
  
 
@@ -335,9 +336,10 @@ nav ul li a:hover{
     
 }
 
-@media (max-width:560px){
+@media (max-width:800px){
     .column{
         width:100%;
+        padding:50px;
     }
     .button input{
         font-size:6px;
@@ -382,217 +384,10 @@ div h2{
     background-color: var(--app-dark-grey);
 }
 
-.subscribe{
-    width:30%;
-    text-align: center;
-    font-size: 10px;
-    text-decoration: none;
-    
-}
-
-.subscribe .button{
-    height:60px;
-    background-color:orangered;
-    border-radius: 16px;
-    margin: 60px;
-    transition: transform .4s;
-}
 
 
- .subscribe a{
-    font-size: 28px;
-    color:#ffffed;
-    text-align: center;
-    text-decoration: none;
-    /*margin-right: 80px;*/
-    padding: 10px;
-    line-height: 60px;
-}
+ 
 /*-------*/
-section{
-    display:grid;
-    align-items: center;
-    padding-top:40px;
-}
-
-section h1{
-    font-size: 50px;
-    font-weight: 600;
-    color:black;
-    width: 100%;
-}
-form{
-    width: 100%;
-}
-h1 span{
-    color:var(--app-pink);
-
-}
-
-p{
-    font-size: 16px;
-    color:black;
-}
-
-form p input, form textarea{
-    height:50px;
-    width:100%;
-    margin-top: 20px;
-    margin-left: 0px;
-    border: 2px solid orangered;
-    border-radius: 8px;
-    padding-left: 10px;
-    font-size:20px;
-    background-color:orangered;
-}
-
-form textarea{
-    resize:none;
-    height:150px;
-}
-
-.clear .submit{
-    height:50px;
-    width:200px;
-    border:2px solid var(--app-pink);
-    border-radius: 8px;
-    margin-top:20px;
-    text-align: center;
-    padding-top:0px;
-    
-
-}
-.submit{
-    background-color:var(--app-pink);
-    font-size: 20px;
-    color: var(--app-white);
-    transition: transform .4s;
-}
-
-.submit:hover{
-    transform: scale(1.2);
-}
-
-.reach{
-    margin-left: 100px;
-}
-
-/*.float{
-    display: flex;
-}*/
-
-
-/*.contact .float .form{
-    width:100%;
-    justify-content: space-around;
-}*/
-
-.reach p{
-    margin-top: 50px;
-    font-size: 24px;
-    font-weight: 500;
-    color:black;
-}
-section{
-    display:grid;
-    align-items: center;
-    padding-top:40px;
-}
-
-section h1{
-    font-size: 50px;
-    font-weight: 600;
-    color:orangered;
-    width: 100%;
-}
-form{
-    width: 100%;
-}
-h1 span{
-    color:orangered;
-
-}
-
-p{
-    font-size: 16px;
-    color:black;
-}
-
-form p input, form textarea{
-    height:50px;
-    width:100%;
-    margin-top: 20px;
-    margin-left: 0px;
-    border: 2px solid var(--app-dark-grey);
-    border-radius: 8px;
-    padding-left: 10px;
-    font-size:20px;
-    background-color:var(--app-dark-grey);
-}
-
-form textarea{
-    resize:none;
-    height:150px;
-}
-
-.clear .submit{
-    height:50px;
-    width:200px;
-    border:2px solid orangered;
-    border-radius: 8px;
-    margin-top:20px;
-    text-align: center;
-    padding-top:0px;
-    
-
-}
-.submit{
-    background-color:orangered;
-    font-size: 20px;
-    color: var(--app-white);
-    transition: transform .4s;
-}
-
-.submit:hover{
-    transform: scale(1.2);
-}
-
-/*.reach{
-    margin-left: 100px;
-}*/
-
-/*.float{
-    display: flex;
-}*/
-
-
-.contact .float .form{
-    width:50%;
-    /*justify-content: space-around;
-    place-items: center;*/
-}
-
-.reach p{
-    margin-top: 50px;
-    font-size: 24px;
-    font-weight: 500;
-    color:#c6c9bfd8;
-}
-
-.subscribe{
-    margin-bottom: 30px;
-}
-
-.form{
-    display: grid;
-    align-items: center;
-   /* margin-left: 350px;*/
-}
-
-.works{
-    padding-bottom:  2px;
-    box-sizing: border-box;
-}
 
 
 
@@ -705,6 +500,7 @@ form textarea{
 @media (max-width:700px){
     .column{
         width:100%;
+        padding: 40px;
     }
     .row{
         display: inline;
@@ -729,80 +525,16 @@ form textarea{
 /*--------------------*/
 
 
-.subscribe .button:hover{
-    transform:scale(1.2);
-}
-@media (max-width:1360px){
-    .subscribe a{
-        margin-right: 80px;
-        font-size:24px ;
-    }
-}
-@media (max-width:1240px ){
-    .subscribe a{
-      font-size: 20px;
-      margin-right: 60px;
-
-    }
-}
-@media (max-width:1080px ){
-    .subscribe a{
-      font-size: 16px;
-      margin-right: 160px;
-
-    }
-}
-
-@media (max-width:900px ){
-    .subscribe a{
-      font-size: 14px;
-      margin-right: 140px;
-
-    }
-}
 
 
 
-@media (max-width:750px ){
-    .subscribe a{
-      font-size: 13px;
-      margin-right:50px ;
-
-    }
-    
-    
-}
-
-@media (max-width:705px ){
-    .subscribe a{
-      font-size: 12px;
-      margin-right:40px ;
-
-    }
-    .row{
-        display: inline;
-    }
-}
-
-@media (max-width:640px ){
-    .subscribe a{
-     font-size: 12px; 
-     margin-right: 20px;
-    }
-}
-
-@media (max-width:570px ){
-    .subscribe a{
-     font-size: 12px; 
-     margin-right: 0px;
-    }
-}
 /*---Links----*/
 .links p{
     font-size: 24px;
     text-align: center;
-    color:orangered;
+    color:var(--app-dark-grey);
     margin-bottom: 30px;
+    
 }
 
 .links a{
@@ -814,20 +546,34 @@ form textarea{
     letter-spacing: 0.2px;
     cursor: pointer;
     transition: transform .4s;
+    margin-bottom: 30px;
 }
 .links h2{
     font-size: 34px;
-    color:orangered;
+    color:var(--app-dark-grey);
 }
 .links a {
     border: 2px solid orangered;
     border-radius: 50%;
     padding: 10px;
     text-align: center;
+    
 }
 
+.test{
+    animation:shake 2.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+}
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+  }
+.links p {
+    margin-top: 20px;
+}
 .links {
     text-align: center;
+    margin-top: 50px;
     
 
 }
