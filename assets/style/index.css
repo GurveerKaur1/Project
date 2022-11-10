@@ -538,7 +538,7 @@ form textarea{
 .clear .submit{
     height:50px;
     width:200px;
-    border:2px solid var(--app-pink);
+    border:2px solid orangered;
     border-radius: 8px;
     margin-top:20px;
     text-align: center;
@@ -547,7 +547,7 @@ form textarea{
 
 }
 .submit{
-    background-color:var(--app-pink);
+    background-color:orangered;
     font-size: 20px;
     color: var(--app-white);
     transition: transform .4s;
@@ -595,3 +595,94 @@ form textarea{
 }
 
 
+footer {
+    display: flex;
+}
+
+
+footer {
+    background-color: orangered;
+    height: 80px;
+    margin-top: 40px;
+    
+}
+
+
+footer  .copy {
+    width: 30%;
+    text-align: right;
+}
+
+ .copy p {
+    font-size: 20px;
+    color: #ffffed;
+    line-height: 70px;
+ }
+ .tags {
+    width: 70%;
+    text-align: left;
+}
+
+ .tags ul {
+    /*Removing the bullet points from the li's*/
+    list-style: none;
+    font-size: 0;
+}
+
+ .tags ul li {
+    display: inline;
+    line-height: 80px;
+    cursor: default;
+}
+
+.tags ul li a {
+    background-color: #ffffed;
+    font-size: 17px;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.tags li a {
+    border: 2px solid #ffffed;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.tags ul li a i:hover{
+    transform:scale(1.5);
+    font-size: 22px;
+    cursor:pointer;
+}
+
+@media (max-width:900px ){
+    .tags ul li a{
+      font-size: 10px;
+
+    }
+
+    .copy{
+        font-size:13px ;
+    }
+}
+
+
+
+@media (max-width:800px){
+    
+
+  nav ul .home-2 ,  nav ul .home-3 ,  nav ul .home-4, nav ul .home-5, nav ul .home-1 {
+    display: none;
+  }
+
+ nav ul .tag {
+    display:inline;
+      font-size:24px;
+      color: #864a36;
+      margin-left:240px;
+ }
+}
