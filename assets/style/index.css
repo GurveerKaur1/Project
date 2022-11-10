@@ -12,13 +12,13 @@
 }
 
 body{
-    background-color: var(--app-black);
+    background-color: var(--app-white);
 }
 
 .hello{
-    height:100vh;
+    height:500px;
     width: 100%;
-    background-image: url(../img/christmas-g4fd2ed5a8_1920.jpg);
+    background-image: url(../img/pexels-pixabay-459271.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -35,9 +35,7 @@ h1{
     line-height: 60px;
 }
 
-span{
-    color:var(--app-pink);
-}
+
 nav{
     width:60%;
     text-align: right;
@@ -131,3 +129,70 @@ nav ul li a:hover{
    }
   }
 */
+
+/*----------------------*/
+/*Hero Banner           */
+/*----------------------*/
+
+
+.section{
+    display:grid;
+    place-items: center;
+    margin-top: 80px;
+    
+}
+.section p{
+    font-size:24px;
+    color: var(--app-white);
+    margin: 5px;
+}
+.section p:last-child{
+    font-size: 34px;
+}
+
+.section .name{
+    font-size: 52px;
+    color: var(--app-white);
+}
+
+.section .name span{
+    color:#864a36;
+}
+
+
+
+.start .mail{
+    width:380px;
+    max-width: 100%;
+    position:relative;
+    margin-top: 20px;
+    
+}
+
+
+.start .mail input:first-child{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    height:60px;
+    border:1px solid #864a36;
+    border-radius: 16px;
+    transition:transform .4s;
+}
+
+/*.start .mail input:last-child{
+    position: absolute;
+    top:5px;
+    right:5px;
+    bottom:5px;
+    background-color: #442200;
+    color: var(--app-white);
+    width:180px;
+    height:50px;
+    border-radius:16px ;
+}*/
+
+.start .mail input:last-child:hover{
+    transform:scale(1.1);
+}
+
