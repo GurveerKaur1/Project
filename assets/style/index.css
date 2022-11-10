@@ -595,92 +595,7 @@ form textarea{
 }
 
 
-/*
 
-@media (max-width:800px ){
-    
-    .tags ul li a{
-      font-size: 10px;
-
-    }
-
-    .copy{
-        font-size:13px ;
-    }
-    .copy{
-        font-size:13px ;
-    }
-   footer .copy{
-       text-align: right;
-        width: 100%;
-    }
-}
-
-
-
-@import "./base.css";
-
-
-.container{
-    width:min(100% - 30px, 1280px);
-    margin-inline: auto;
-}
-
-
-.flexbox{
-    display: flex;
-}
-
-body{
-    background-color: var(--app-black);
-}
-
-.hello{
-    height:100vh;
-    width: 100%;
-    background-image: url(../img/pexels-eberhard-grossgasteiger-2098428.jpg);
-    background-size: cover;
-    background-position: center;
-}
-header{
-    height: 60px;
-}
-
-h1{
-    width:40%;
-    font-size: 40px;
-    font-weight: 600;
-    color:var(--app-grey);
-    margin-right: 30px;
-    line-height: 60px;
-}
-
-span{
-    color:var(--app-pink);
-}
-nav{
-    width:60%;
-    text-align: center;
-    font-size: 18px;
-    color:var(--app-grey);
-    margin-right: 30px;
-    line-height: 60px;
-}
-
-
-nav ul li {
-    display:inline;
-    list-style: none;
-    margin-right: 50px;
-    text-decoration: none;
-}
-nav ul li a{
-    text-decoration: none;
-    color:var(--app-grey);
-}
-nav ul li a:hover{
-    color:var(--app-pink);
-}
 
 
 /*--------------------*/
@@ -882,7 +797,40 @@ nav ul li a:hover{
      margin-right: 0px;
     }
 }
+/*---Links----*/
+.links p{
+    font-size: 24px;
+    text-align: center;
+    color:orangered;
+    margin-bottom: 30px;
+}
 
+.links a{
+    background-color: orangered;
+    font-size: 24px;
+    color:  white;
+    text-decoration: none;
+    font-weight: 600px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.links h2{
+    font-size: 34px;
+    color:orangered;
+}
+.links a {
+    border: 2px solid orangered;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    
+
+}
 /*------------------------*/
 /*Footer                  */
 /*------------------------*/
