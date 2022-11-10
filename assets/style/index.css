@@ -316,9 +316,11 @@ nav ul li a:hover{
 }
 .works{
     background-image: url(../img/wp3429667-background-light-orange.png);
+
     width: 100%;
     background-size: cover;
     background-position: center;
+    margin-bottom: 20px;
 }
 /*699px and down*/
 @media (max-width:1080px ){
@@ -346,7 +348,7 @@ div h2{
     font-size:24px;
     color:orangered;
 }
-p{
+.column p{
     margin-top: 10px;
     margin-bottom: 30px;
     color:#864a36;
@@ -382,7 +384,7 @@ p{
 
 .subscribe{
     width:30%;
-    text-align: right;
+    text-align: center;
     font-size: 10px;
     text-decoration: none;
     
@@ -390,20 +392,206 @@ p{
 
 .subscribe .button{
     height:60px;
-    background-color: var(--app-pink);
-    border-radius: 34px;
-    margin-top: 60px;
+    background-color:orangered;
+    border-radius: 16px;
+    margin: 60px;
     transition: transform .4s;
 }
 
 
  .subscribe a{
     font-size: 28px;
-    color:var(--app-light-pink);
-    align-items: center;
+    color:#ffffed;
+    text-align: center;
     text-decoration: none;
-    margin-right: 80px;
+    /*margin-right: 80px;*/
     padding: 10px;
     line-height: 60px;
 }
+/*-------*/
+section{
+    display:grid;
+    align-items: center;
+    padding-top:40px;
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:black;
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+h1 span{
+    color:var(--app-pink);
+
+}
+
+p{
+    font-size: 16px;
+    color:black;
+}
+
+form p input, form textarea{
+    height:50px;
+    width:100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size:20px;
+    background-color:orangered;
+}
+
+form textarea{
+    resize:none;
+    height:150px;
+}
+
+.clear .submit{
+    height:50px;
+    width:200px;
+    border:2px solid var(--app-pink);
+    border-radius: 8px;
+    margin-top:20px;
+    text-align: center;
+    padding-top:0px;
+    
+
+}
+.submit{
+    background-color:var(--app-pink);
+    font-size: 20px;
+    color: var(--app-white);
+    transition: transform .4s;
+}
+
+.submit:hover{
+    transform: scale(1.2);
+}
+
+.reach{
+    margin-left: 100px;
+}
+
+/*.float{
+    display: flex;
+}*/
+
+
+/*.contact .float .form{
+    width:100%;
+    justify-content: space-around;
+}*/
+
+.reach p{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color:black;
+}
+section{
+    display:grid;
+    align-items: center;
+    padding-top:40px;
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:orangered;
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+h1 span{
+    color:orangered;
+
+}
+
+p{
+    font-size: 16px;
+    color:black;
+}
+
+form p input, form textarea{
+    height:50px;
+    width:100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: 2px solid var(--app-dark-grey);
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size:20px;
+    background-color:var(--app-dark-grey);
+}
+
+form textarea{
+    resize:none;
+    height:150px;
+}
+
+.clear .submit{
+    height:50px;
+    width:200px;
+    border:2px solid var(--app-pink);
+    border-radius: 8px;
+    margin-top:20px;
+    text-align: center;
+    padding-top:0px;
+    
+
+}
+.submit{
+    background-color:var(--app-pink);
+    font-size: 20px;
+    color: var(--app-white);
+    transition: transform .4s;
+}
+
+.submit:hover{
+    transform: scale(1.2);
+}
+
+.reach{
+    margin-left: 100px;
+}
+
+/*.float{
+    display: flex;
+}*/
+
+
+.contact .float .form{
+    width:50%;
+    /*justify-content: space-around;
+    place-items: center;*/
+}
+
+.reach p{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#c6c9bfd8;
+}
+
+.subscribe{
+    margin-bottom: 30px;
+}
+
+.form{
+    display: grid;
+    align-items: center;
+    margin-left: 350px;
+}
+
+.works{
+    padding-bottom:  2px;
+    box-sizing: border-box;
+}
+
 
