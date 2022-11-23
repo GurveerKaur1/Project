@@ -69,27 +69,32 @@ nav ul li a:hover{
 /*----------------------*/
 
 
-.section{
+.show-modal{
     display:grid;
     place-items: center;
     margin-top: 80px;
+    transform: translateY(10px);
+    transition:all 0.65s ease-in-out;
+    
     
 }
-.section p{
+
+
+.show-modal p{
     font-size:24px;
     color: var(--app-white);
     margin: 5px;
 }
-.section p:last-child{
+.show-modal p:last-child{
     font-size: 34px;
 }
 
-.section .name{
+.show-modal .name{
     font-size: 52px;
     color: var(--app-white);
 }
 
-.section .name span{
+.show-modal .name span{
     color:#864a36;
 }
 
