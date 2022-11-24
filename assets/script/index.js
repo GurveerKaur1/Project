@@ -13,9 +13,9 @@ const modal = select('p');
 //const showModal = document.querySelector('.show-modal');
 const section = select('.section')
 
-window.addEventListener('load', () =>{
+/*window.addEventListener('load', () =>{
     
     setTimeout(() => {
         section.classList ='show-modal';
     }, 500);
-});
+});*/

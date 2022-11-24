@@ -73,10 +73,19 @@ nav ul li a:hover{
     display:grid;
     place-items: center;
     margin-top: 80px;
-    transform: translateY(10px);
-    transition:all 0.65s ease-in-out;
-    
-    
+    animation: trans 0.85s ease-in-out;
+}
+
+@keyframes trans {
+    from {
+        opacity: 0;
+        transform: translatey(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0px);
+    }
 }
 
 
