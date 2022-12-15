@@ -11,11 +11,11 @@ function select(selector, parent = document){
 
 const modal = select('p');
 //const showModal = document.querySelector('.show-modal');
-const section = select('.section')
+const section = select('.start')
 
-/*window.addEventListener('load', () =>{
+window.addEventListener('load', () =>{
     
     setTimeout(() => {
-        section.classList ='show-modal';
-    }, 500);
-});*/
+        section.style.display ='inline';
+    }, 1500);
+});
