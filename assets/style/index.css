@@ -12,8 +12,8 @@
 }
 
 body{
-    background-color: var(--app-white);
-
+    background-color: #000;
+    height: calc(var(--vh, 1vh) * 100);
 }
 
 .hello{
@@ -72,7 +72,9 @@ nav ul li a:hover{
 .show-modal{
     display:grid;
     place-items: center;
-    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+     margin-top: 80px; 
     
 }
 
@@ -113,7 +115,7 @@ animation: trans 1s ease-in-out;
 
 
 .start .mail{
-    width:380px;
+     width:340px; 
     max-width: 100%;
     position:relative;
     margin-top: 20px;
@@ -201,6 +203,22 @@ animation: trans 1s ease-in-out;
 @media(max-width:1000px){
     .about .text h2{
         font-size:40px ;
+    }
+}
+
+@media(max-width: 800px){
+    .show-modal p{
+        font-size:18px;
+        color: var(--app-white);
+        margin: 5px;
+    }
+    .show-modal p:last-child{
+        font-size: 28px;
+    }
+    
+    .show-modal .name{
+        font-size: 46px;
+        color: var(--app-white);
     }
 }
 
@@ -387,7 +405,13 @@ div h2{
 
 @media (max-width:600px){
     
+    nav{
+        width: 50%;
+    }
 
+    .title{
+        width:50%
+    }
     .six, nav ul .home-2 ,  nav ul .home-3 ,  nav ul .home-4, nav ul .home-5 {
       display: none;
     }
@@ -559,7 +583,7 @@ div h2{
 
 footer {
     background-color: orangered;
-    height: 80px;
+    /* height: 80px; */
     margin-top: 20px;
     
 }
